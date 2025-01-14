@@ -1,0 +1,21 @@
+{
+  "welcome": {
+    "title": "Bienvenue sur Popwork ! 🎉",
+    "intro": "Bonjour {{userName}},\nMerci d'avoir installé **Popwork** ! 🚀",
+    "featuresTitle": "Que peut faire Popwork pour vous ?",
+    "features": {
+      "1": "🤝 Faciliter des réunions individuelles de qualité",
+      "2": "🌱 Encourager des retours réguliers",
+      "3": "📊 Suivre les indicateurs de votre équipe"
+    },
+    "gettingStartedTitle": "Comment commencer :",
+    "gettingStarted": {
+      "signup": "📝 Inscription : [Lien pour s'inscrire](https://app.pop.work/sign-up)",
+      "help": "📚 Aide & Documentation : [Lien vers la documentation](https://help.pop.work/)",
+      "support": "💬 Contactez-nous/Support : [support@pop.work](mailto:support@pop.work)"
+    },
+    "importantInfoTitle": "Informations importantes",
+    "importantInfo": "⚠️ Ce bot est un bot de **notifications uniquement**. Il envoie des mises à jour directement dans votre environnement Teams, mais il **ne prend pas en charge les conversations directes**.\n📌 Pour accéder aux fonctionnalités interactives, veuillez visiter [l'application Popwork](https://app.pop.work/).",
+    "tourButton": "Faire une visite guidée 🔍"
+  }
+}

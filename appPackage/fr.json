@@ -1,0 +1,7 @@
+{
+	"$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.Localization.schema.json",
+	"name.short": "Popwork",
+	"name.full": "Popwork",
+	"description.short": "Popwork est l'assistant intelligent pour les responsables d'équipe.",
+	"description.full": " Avec Popwork, vous pouvez transformer vos meetings 1:1 en conversations constructives, visualiser des informations clés sur votre équipe et suivre les objectifs et priorités. Popwork vous permet également de garder tout le monde informé, avec toutes vos mises à jour clés réunies en un seul endroit.  Recevez des notifications sur Slack lorsque :  Vous êtes invité(e) à préparer une réunion en tête-à-tête Vous recevez des réponses en préparation d'une réunion Quelqu’un partage des retours avec vous De nouveaux commentaires sont ajoutés par votre équipe Vous devez disposer d’un compte Popwork pour utiliser l’application sur Slack. Pour créer votre compte, inscrivez-vous ici : https://pop.work/."
+}

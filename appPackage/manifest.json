@@ -1,0 +1,73 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.17/MicrosoftTeams.schema.json",
+  "version": "1.0.1",
+  "manifestVersion": "1.17",
+  "id": "${{TEAMS_APP_ID}}",
+  "name": {
+    "short": "Popwork",
+    "full": ""
+  },
+  "developer": {
+    "name": "Popwork",
+    "mpnId": "6675600",
+    "websiteUrl": "https://pop.work",
+    "privacyUrl": "https://pop.work/privacy-policy",
+    "termsOfUseUrl": "https://pop.work/terms-of-use"
+  },
+  "description": {
+    "short": "Popwork is the smart assistant for team leaders.",
+    "full": "With Popwork, you can transform 1-to-1 meetings into meaningful conversations, visualise key insights on your team and follow up on objectives and priorities.\nIt also keeps everyone in the loop, with all your key Popwork updates in one place.\nGet notified on Microsoft Teams when:\n- You’re invited to prepare a 1-to-1 meeting\n- You receive answers in preparation of a meeting\n- Someone shares feedback with you\n- New comments are made by your team\nYou need to have a Popwork account to start using the app for Microsoft Teams. To create your account please sign-up here https://pop.work/."
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#6969CC",
+  "staticTabs": [
+    {
+      "entityId": "conversations",
+      "scopes": ["personal"]
+    },
+    {
+      "entityId": "about",
+      "scopes": ["personal"]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "${{BOT_ID}}",
+      "scopes": ["personal", "team", "groupChat"],
+      "supportsFiles": false,
+      "isNotificationOnly": true
+    }
+  ],
+  "validDomains": [],
+  "webApplicationInfo": {
+    "id": "12aebdbb-2b86-48b1-9272-d80280f472ed",
+    "resource": ""
+  },
+  "devicePermissions": ["notifications", "openExternal"],
+  "localizationInfo": {
+    "defaultLanguageTag": "en-us",
+    "additionalLanguages": [
+      {
+        "languageTag": "fr",
+        "file": "fr.json"
+      }
+    ]
+  },
+  "authorization": {
+    "permissions": {
+      "resourceSpecific": [
+        {
+          "name": "ChatMessage.Read.Chat",
+          "type": "Application"
+        },
+        {
+          "name": "ChatMessage.Send.Chat",
+          "type": "Application"
+        }
+      ]
+    }
+  }
+}
